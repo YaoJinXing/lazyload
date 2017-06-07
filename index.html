@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>同城帮</title>
+	<!-- <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/> -->
+    <!-- <script src="http://cache.amap.com/lbs/static/es5.min.js"></script> -->
+    <!-- <script src="http://webapi.amap.com/maps?v=1.3&key=06fb75f531ce19fd2af711465487d07a&plugin=AMap.Scale,AMap.OverView,AMap.ToolBar,AMap.Autocomplete"></script> -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/tcb.css"> -->
+	<script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+</head>
+<body>
+<!-- 顶部 -->
+	<div class="top">
+		<div class="w">
+			<p><span>北京</span><a href="#" id="clkcity">[切换城市]</a></p>
+			<p><a href="#">同城帮首页</a></p>
+			<ul>
+				<li><a href="#" id="denglu">登录</a></li>
+				<li><a href="#" id="zhuce">注册</a></li>
+				<li><a href="#">我的订单</a></li>
+				<li>客服电话:400-399-360</li>
+				<li><a href="#">客户服务</a><img src="imgs/cron.jpg"></li>
+				<li><a href="#">论坛</a></li>
+				<li><a href="#">投诉建议</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<!-- logo部分 -->
+	<div class="logo">
+		<div class="w">
+			<h1>同城帮</h1>
+			<ul>
+				<li><a href="#">二手良品</a><img src="imgs/hot.jpg"></li>
+				<li><a href="#">手机回收</a></li>
+				<li><a href="#">手机维修</a></li>
+				<li><a href="#">电脑维修</a></li>
+				<li><a href="#">以旧换新</a></li>
+				<li><a href="#">手机租用</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 轮播部分 -->
+	<div class="lb">
+		<div class="w">
+			<div class="lbright" >
+				<ul id="myul">
+					<li><a href="#">修手机/Pad</a></li>
+					<li><a href="#">修电脑</a></li>
+					<li><a href="#">卖手机</a></li>
+					<li><a href="#">买二手机</a></li>
+				</ul>
+				<!-- 菜单鼠标经过出现 -->
+					<div id="div">
+					<div class="showone" id="showone">
+					
+					</div>
+
+					<div class="showtwo" id="showtwo">
+					
+					</div>
+					<div class="showthree" id="showthree">
+					</div>
+					<div class="showfour" id="showfour">
+					
+					</div>
+				</div>
+			</div>
+			<img src="imgs/1.png" id="img">
+		</div>
+	</div>
+	
+	<!-- banner部分 -->
+	
+	<div class="body_2">
+		<div class="w">
+			<div class="banner">
+				<img src="imgs/banner1.jpg"><img src="imgs/banner2.jpg"><img src="imgs/banner3.jpg"><img src="imgs/banner4.jpg">
+			</div>
+		</div>
+	
+	<!-- 主体部分 -->
+
+	<div class="main_1">
+		<div class="w">
+			<div class="main_1tp">
+				<h2>热门手机回收</h2><p><a href="#">查看更多</a></p>
+			</div>
+			<div class="main_1btm" id="huishou">
+				<img src="imgs/r.jpg" id="img1">
+
+				 <div>
+					<figure>
+						<img src="imgs/ip6.jpg">
+						<figcaption>
+							苹果iphone&nbsp;6
+						</figcaption>
+					</figure>
+				</div>
+				<div>
+					<figure>
+						<img src="imgs/5s.jpg">
+						<figcaption>
+							苹果iphone&nbsp;5s
+						</figcaption>
+					</figure>
+				</div>
+				<div>
+					<figure>
+						<img src="imgs/xiaomi.jpg">
+						<figcaption>
+							小米&nbsp;M4
+						</figcaption>
+					</figure>
+				</div>
+				<div>
+					<figure>
+						<img src="imgs/huawei.jpg">
+						<figcaption>
+							华为&nbsp;Mate7
+						</figcaption>
+					</figure>
+				</div>
+				<div>
+					<figure>
+						<img src="imgs/meizu.jpg">
+						<figcaption>
+							魅族&nbsp;MX5
+						</figcaption>
+					</figure>
+				</div> 
+
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="main_2">
+		<div class="w">
+			<div class="main_2tp">
+				<h2>二手良品精选</h2><p><a href="#">查看更多</a></p>
+			</div>
+			<div class="main_2btm">
+				<img src="imgs/er.jpg" id="img2">
+				<div>
+					<figure>
+						<img src="imgs/6er.jpg">
+						<figcaption>
+							苹果iphone&nbsp;6</br><span>￥2699</span>
+						</figcaption>
+					</figure>
+				</div>
+				<div>
+					<figure>
+						<img src="imgs/ip6.jpg">
+						<figcaption>
+							苹果iphone&nbsp;6</br><span>￥2229</span>
+						</figcaption>
+					</figure>
+				</div>
+				<div>
+					<figure>
+						<img src="imgs/6jin.jpg">
+						<figcaption>
+							苹果iphone&nbsp;6s&nbsp;PLUS</br><span>￥3699</span>
+						</figcaption>
+					</figure>
+				</div>
+				<div>
+					<figure>
+						<img src="imgs/5sda.jpg">
+						<figcaption>
+							苹果iphone&nbsp;5s</br><span>￥1150</span>
+						</figcaption>
+					</figure>
+				</div>
+				<div>
+					<figure>
+						<img src="imgs/6p.jpg">
+						<figcaption>
+							苹果iphone&nbsp;6&nbsp;PLUS</br><span>￥2899</span>
+						</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="h"><div class="w"><h2>到店维修</h2></div></div>
+	</div>
+
+	<!-- body3部分 -->
+	<div class="main_3">
+		<div class="w">
+			<div class="main_3lf">
+				<div class="ipus">
+					<input type="button" value="北京" id="bj"><input type="button" value="选择区县" id="qx"><input type="text" placeholder="匹夫涮肉"><input type="button" value="搜索">
+					
+				</div>
+				<div class="dian">
+					<ul>
+						<li><a href="#">默认排序</a></li>
+						<li><a href="#">按成交量</a></li>
+						<li><a href="#">按人气</a></li>
+					</ul>
+					<p><input type="checkbox">先行赔付</p>
+					<div class="ditu" id="anniu">
+						<a href="#">地图模式</a>
+					</div>
+				
+				</div>
+				<!-- 用模板嵌入数据 -->
+				<div class="neirong" id="neirong"></div>
+				<!-- 模板拼接 -->
+				<div id="tmp"></div>
+			</div>
+			<!-- 右侧部分 -->
+		<div class="main_3rg">
+		<h2>商家好评榜</h2>
+		<ul>
+			<li><div class="xuhao">⑥</div><img src="imgs/shu.jpg"><div class="gs">
+				<h3><a href="#">忠信电脑维修</a></h3><p>12192条评论</p>
+			</div></li>
+			<li><div class="xuhao">⑥</div><img src="imgs/shu.jpg"><div class="gs">
+				<h3><a href="#">忠信电脑维修</a></h3><p>12192条评论</p>
+			</div></li>
+			<li><div class="xuhao">⑥</div><img src="imgs/shu.jpg"><div class="gs">
+				<h3><a href="#">忠信电脑维修</a></h3><p>12192条评论</p>
+			</div></li>
+			<li><div class="xuhao">⑥</div><img src="imgs/shu.jpg"><div class="gs">
+				<h3><a href="#">忠信电脑维修</a></h3><p>12192条评论</p>
+			</div></li>
+			<li><div class="xuhao">⑥</div><img src="imgs/shu.jpg"><div class="gs">
+				<h3><a href="#">忠信电脑维修</a></h3><p>12192条评论</p>
+			</div></li>
+			<li><div class="xuhao">⑥</div><img src="imgs/shu.jpg"><div class="gs">
+				<h3><a href="#">忠信电脑维修</a></h3><p>12192条评论</p>
+			</div></li>
+			<li><div class="xuhao">⑥</div><img src="imgs/shu.jpg"><div class="gs">
+				<h3><a href="#">忠信电脑维修</a></h3><p>12192条评论</p>
+			</div></li>
+		</ul>
+		</div>
+		</div>
+	</div>
+	<div class="q">
+		<div class="fanye">
+		<ul id="myul2">
+			
+		</ul>
+		</div>
+	</div>
+	
+<!-- 底部 -->
+<div class="bottom">
+<div class="w">
+	<div class="bttop">
+		<img src="imgs/bottom.jpg">
+	</div>
+</div>
+	
+</div>
+<!-- 咨询框 -->
+<div class="zixun"><img src="imgs/zixun.png"></div>
+<!-- 回到顶部 -->
+<div></div>
+
+
+
+
+
+<!-- 点击出现城市切换 -->
+		<!-- <div class="city" id="changecity"> -->
+			<div class="citytp">城市列表<span id="span1">关闭×</span></div>
+			<div class="citybt">
+			<div class="rowtp">
+			<div class="rowtplf">热门</div>
+				<div class="rowtprg" id="re">
+					<a href="#">北京</a><a href="#">北京</a><a href="#">北京</a>
+					<a href="#">北京</a><a href="#">北京</a><a href="#">北京</a>
+					<a href="#">北京</a><a href="#">北京</a><a href="#">北京</a>
+					<a href="#">北京</a><a href="#">北京</a><a href="#">北京</a>
+					<a href="#">北京</a><a href="#">北京</a><a href="#">北京</a>
+					<a href="#">北京</a>
+				</div>
+			</div>
+			<div class="rowbt">
+				<div class="rowbtlf">
+					拼音
+				</div>
+				<div class="rowbtrg">
+					<div class="eg">
+						<a href="#">A</a>
+						<a href="#">B</a>
+						<a href="#">C</a>
+						<a href="#">D</a>
+						<a href="#">E</a>
+						<a href="#">F</a>
+						<a href="#">G</a>
+						<a href="#">H</a>
+						<a href="#">J</a>
+						<a href="#">K</a>
+						<a href="#">L</a>
+						<a href="#">M</a>
+						<a href="#">N</a>
+						<a href="#">P</a>
+						<a href="#">Q</a>
+						<a href="#">R</a>
+						<a href="#">S</a>
+						<a href="#">T</a>
+						<a href="#">W</a>
+						<a href="#">X</a>
+						<a href="#">Y</a>
+						<a href="#">Z</a>
+					</div>
+					下面显示的城市
+					<div class="xiacity">
+					<a href="#">北京</a><a href="#">北京</a><a href="#">北京</a>
+					<a href="#">北京</a><a href="#">北京</a><a href="#">北京</a>
+					<a href="#">北京</a><a href="#">北京</a><a href="#">北京</a>
+					<a href="#">北京</a><a href="#">北京</a><a href="#">北京</a>
+					</div>
+				</div>
+			</div>
+		<!-- </div> -->
+
+		</div>
+		<!-- 选择区县列表 -->
+		<div class="quxian" id="quxinan">
+			<div class="quxiantp">区县列表<span id="span2">关闭×</span></div>
+			<div class="quxianbt" id="quxianbt">
+				<span>全部区县</span><a href="#"></a>
+			</div>
+		</div>
+	<!-- 点击出现地图 -->
+<div class="zhe" id="zhe">
+	<div class="dt" id="dt">
+		<div class="biaoti"><h3>高德地图<span id="span3">关闭x</span></h3></div>
+		<div class="ditunei">
+				<div id="dtbt" class="dtbt"></div>
+				
+				<!-- 显示搜索框 -->
+				<div id="myPageTop">
+				    <table>
+				        <tr>
+				            <td>
+				                <label>按关键字搜索：</label>
+				            </td>
+				            <td class="column2">
+				                <label>左击获取经纬度：</label>
+				            </td>
+				        </tr>
+				        <tr>
+				            <td>
+				                <input type="text" placeholder="请输入关键字进行搜索" id="tipinput">
+				            </td>
+				            <td class="column2">
+				                <input type="text" readonly="true" id="lnglat">
+				            </td>
+				        </tr>
+				    </table>
+				</div>
+				
+
+		</div>
+
+	</div>
+</div>
+
+
+	<!-- 登录界面 -->
+	<div class="dlzhe" id="dlzhe">
+		
+		<div class="dl" id="dl">
+			<div class="dltp">
+				欢迎登陆360同城帮<span id="dlspan">×</span>
+			</div>
+			<div class="dlmd">
+				<table>
+					<tr>
+						<td>账&nbsp;号</td>
+						<td><input type="text" placeholder="手机号/用户名/邮箱"></td>
+					</tr>
+					<tr>
+						<td>密&nbsp;码</td>
+						<td><input type="text" placeholder="请输入您的密码"></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="checkbox">下次自动登录</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="button" value="立即登录"></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><span>其它账号登录:</span><a href="#"></a></td>
+					</tr>
+				</table>
+			</div>
+			<div class="dlbt">
+				<div><a href="#">注册新账号</a><a href="#">忘记密码?</a></div>
+			</div>
+		</div>
+
+	</div>
+	<!-- 注册界面 -->
+	<div class="zczhe" id="zczhe">
+	<div class="zhuce" id="zcshow">
+		<div class="zctp">
+				欢迎注册360同城帮<span id="zcspan">×</span>
+		</div>
+		<div class="zcbt">
+		<div class="zcbtlf">
+			<ul>
+				<li>手机注册</li>
+				<li>邮箱注册</li>
+			</ul>
+			<p>已有账号,<a href="">立即登录</a></p>
+		</div>
+		</div>
+	</div>
+	</div>
+</body>
+<!-- <script type="text/javascript" src="js/baiduTemplate.js"></script> -->
+<script type="text/javascript" src="js/tcb.js"></script>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<style type="text/css">
+			*{
+				margin:0;
+				padding: 0;
+			}
+			img{
+				border:none;
+			}
+			body{
+				font-family:'Microsoft Yahei';
+				font-size:13px;
+			}
+			#main{
+				width: 1200px;
+				margin:0 auto;
+			}
+			.imgDiv{
+				width: 80px;
+				height: 80px;
+				margin:0 10px 0 0;
+				float:left;
+				
+			}
+			.imgDiv img{
+				width: 80px;
+				height: 80px;
+			}
+			.contentDiv{
+				width: 380px;
+				float: left;
+			}
+			.contentDiv .name{
+				color:green;
+				float: left;
+				margin-right: 30px;
+			}
+			.contentDiv .level{
+				float: left;
+			}
+			.contentDiv .peopleDiv{
+				float: right;
+			}
+			.contentDiv .p1{
+				margin-top:20px;
+			}
+			.contentDiv .p2{
+				margin-top:20px;
+			}
+		</style>
+		<script type="text/javascript" src="js/baiduTemplate.js"></script>
+		<script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+		<!-- <script type="text/javascript">
+			$(function(){
+				var menu=$("#menu");
+				menu.html("正在加载.....");
+				$.getJson("shop.json",function(data){
+						console.log(data);
+						menu.html("");
+						var html=baidu.template("tml",data);
+						menu.html(html);	
+				});
+			})			
+		</script> -->
+		<!-- <script type="text/html" id="tml">
+			<ul>
+				<%for(var i=0;i<shop_data.length;i++){%>
+					<li>
+						<div class="imgDiv">
+							<img src="imgs/loading.gif" data-url=<%=shop_data[i].shop_ico%>>
+						</div>
+						<div class="contentDiv">
+							<span class="name"><%=shop_data[i].shop_name%></span>
+							<div class="level">
+								<span>店铺等级:</span>
+								<img src="imgs/xin.jpg"><img src="imgs/xin.jpg"><img src="imgs/xin.jpg">
+							</div>
+							<p class="p1">主营:<%=shop_data[i].main%></p>
+							<p class="p2">地址:<%=shop_data[i].addr_detail%></p>
+							<div class="peopleDiv">
+								<p>人气:189700次浏览</p>
+							</div>
+						</div>
+					</li>
+				<%}%>
+			</ul>
+		</script> -->
+	</head>
+	<body>
+		<div id="main">
+			<div id="menu">
+				
+			</div>
+		</div>
+	</body>
+</html>
